@@ -1,0 +1,102 @@
+
+button{
+    font-size: 13px;
+    text-align: center;
+    border-radius: 8px;
+    padding: 10px 20px;
+
+}
+.page-nav{
+    background-color: rgb(37, 33, 33);
+    border: 1px solid black;
+    position: relative;
+}
+.page-nav h1{
+    margin:20px;
+    color: white;
+}
+.button-checkout{
+   
+    background-color: white;
+    border: 1px solid black;
+    transition-duration: 0.4s;
+    position: absolute;
+    right: 15px;
+    bottom: 15px;
+}
+.button-checkout:hover {
+    background-color: rgba(26, 21, 21, 0.842); 
+    color: white;
+  }
+.page-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+   
+
+}
+
+.product-container{
+    border-radius: 20px;
+    margin: 10px;
+    padding: 2px 16px;
+    position: relative;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);
+    background-color: white;
+}
+
+.product-container:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
+.product-cotainer img{
+    width: 300px;
+}
+
+.product-container h2{
+    margin-bottom: 10px;
+    margin-left: 15px;
+}
+
+.product-container h3{
+  text-align: center;
+}
+
+
+.button-add {
+    border: none;
+    font-size: 13px;
+    text-align: center;
+    border-radius: 8px;
+    padding: 10px 20px;
+    background-color: white;
+    border: 1px solid black;
+    transition-duration: 0.4s;
+    position: absolute;
+    right: 15px;
+    bottom: 10px;
+  }
+  
+  .button-add:hover {
+    background-color: rgba(26, 21, 21, 0.842); 
+    color: white;
+  }
+
+  .button-add.disabled {
+    border: none;
+    font-size: 13px;
+    text-align: center;
+    border-radius: 8px;
+    padding: 10px 20px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(202, 10, 10);
+    transition-duration: 0.4s;
+    position: absolute;
+    right: 15px;
+    bottom: 10px;
+  }
+  
+  .button-add.disabled:hover {
+    background-color: rgba(180, 0, 0, 0.842); 
+    color: white;
+  }
